@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "Main",
+      "mainClass": "Main",
+      "buildTarget": "file:/C:/Users/User/OneDrive/Рабочий%20стол/NewLang/Scala/?id=scala",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    }
+  ]
+}

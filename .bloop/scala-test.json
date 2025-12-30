@@ -1,0 +1,281 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-test",
+        "directory": "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala",
+        "workspaceDir": "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala",
+        "sources": [
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\src\\test\\scala",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\src\\test\\scala-2.13",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\src\\test\\scala-2",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\src\\test\\java",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\target\\scala-2.13\\src_managed\\test",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\main.scala"
+        ],
+        "dependencies": [
+            "scala"
+        ],
+        "classpath": [
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\.bloop\\scala\\scala-2.13\\classes",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.17.0\\jackson-module-scala_2.13-2.17.0.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.17.0\\jackson-core-2.17.0.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.17.0\\jackson-annotations-2.17.0.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.17.0\\jackson-databind-2.17.0.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
+            "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\bytebuddy\\byte-buddy\\1.14.9\\byte-buddy-1.14.9.jar"
+        ],
+        "out": "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\.bloop\\scala",
+        "classesDir": "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\.bloop\\scala\\scala-2.13\\test-classes",
+        "resources": [
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\src\\test\\resources",
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala\\target\\scala-2.13\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.15",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar",
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.15\\scala-compiler-2.13.15.jar",
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.15\\scala-reflect-2.13.15.jar",
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.26.3\\jline-3.26.3.jar",
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            },
+            "bridgeJars": [
+                "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.15\\scala2-sbt-bridge-2.13.15.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-23",
+                "options": [
+                    "-Duser.dir=C:\\Users\\User\\OneDrive\\Рабочий стол\\NewLang\\Scala"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.13",
+                    "version": "2.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.17.0\\jackson-module-scala_2.13-2.17.0.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.17.0\\jackson-module-scala_2.13-2.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.17.0\\jackson-core-2.17.0.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.17.0\\jackson-core-2.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.17.0\\jackson-annotations-2.17.0.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.17.0\\jackson-annotations-2.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.17.0\\jackson-databind-2.17.0.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.17.0\\jackson-databind-2.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.14.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\bytebuddy\\byte-buddy\\1.14.9\\byte-buddy-1.14.9.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\bytebuddy\\byte-buddy\\1.14.9\\byte-buddy-1.14.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.15",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\User\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
